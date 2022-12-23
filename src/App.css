@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.card {
+    margin-top: 5rem;
+    background-color: #fbf8f1;
+    width: 300px;
+    height: 290px;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .title {
+    text-align: center;
+}
+.card .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .img img {
+    border-radius: 50%;
+}
+.card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.card .info .info_item {
+    display: flex;
+    gap: 1rem;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fbf8f1;
+}
+.bx-shuffle {
+    font-size: 1.5rem;
+}
